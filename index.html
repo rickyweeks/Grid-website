@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2da434c0c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <button type="button"><p>Hello world!</p></button> -->
+    <!-- header/nav -->
+    <header class="container">
+      <p id="logo">My Company</p>
+      <nav>
+        <ul>
+          <li>About</li>
+          <li>Services</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>Login</li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- banner/hero  -->
+
+    <div id="banner">
+      <div class="container">
+        <h1>This is a level 1 heading</h1>
+        <br />
+        <p>
+          There are 200px of padding on the top and bottom of this banner
+          section. There is also a max-width of 700px on this paragraph. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Harum ullam
+          recusandae dolor voluptatum unde at!
+        </p>
+        <br />
+        <div class="buttons">
+          <button type="button"><p>Sign Up</p></button>
+          <!-- <a href="#"><p>Learn more</p></a> -->
+          <!-- remove <p> fixes hover styling but loses inherited size/style -->
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <a href="#"><i class="fa-solid fa-heart"></i></a> -->
+
+    <!-- <div class="container">
+      <a href="#">My link &rarr;</a>
+    </div> -->
+
+    <div id="services" class="grid-container">
+      <h2>Services</h2>
+      <!-- card -->
+      <div class="card">
+        <i class="fa-solid fa-cat"></i>
+        <h3>H3 Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+          corporis vero. Deleniti laboriosam quasi sequi!
+        </p>
+        <div class="container">
+          <a href="#">Learn more &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-book-skull"></i>
+        <h3>H3 Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+          corporis vero. Deleniti laboriosam quasi sequi!
+        </p>
+        <div class="container">
+          <a href="#">Learn more &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-cloud-moon"></i>
+        <h3>H3 Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+          corporis vero. Deleniti laboriosam quasi sequi!
+        </p>
+        <div class="container">
+          <a href="#">Learn more &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-ghost"></i>
+        <h3>H3 Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+          corporis vero. Deleniti laboriosam quasi sequi!
+        </p>
+        <div class="container">
+          <a href="#">Learn more &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-hat-wizard"></i>
+        <h3>H3 Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+          corporis vero. Deleniti laboriosam quasi sequi!
+        </p>
+        <div class="container">
+          <a href="#">Learn more &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer id="footer">
+    <nav class="container">
+      <ul>
+        <p id="copyright">&#169; My Company 2023</p>
+        <div id="links">
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+        </div>
+      </ul>
+    </nav>
+  </footer>
+</html>
